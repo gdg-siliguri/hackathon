@@ -1,9 +1,512 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <p>This is an test of a simple HTML page with one paragraph.</p>
-    </body>
+<head>
+
+
+	<meta charset="utf-8" />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script data-ad-client="ca-pub-9081442854048209" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Css path -->
+    <link rel="stylesheet" type="text/css" href="static\design\css\styles.css">
+    <!-- <link rel="stylesheet" href="static\design\css/styles.css"> -->
+    <link rel="icon" type="image/ico" href="static\design\images\icon.png"/>
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Bits & Bytes</title>
+    
+</head>
+<body>
+
+    <div class="navbar-fixed" id="home" style="height: 45px;">
+        <nav class="white" style="height: 55px;"> 
+            <div class="container" style="height: 45px; width: 100%;  margin-top: -3px;">
+                <div class="" style="height: 45px;">
+                    <a href="#" class="logo"><span>Bits & Bytes</span></a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons" style="color: black;">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down" style="height: 45px;  font-family: profontwindows;">
+                        <li  style="display: none;">
+                            <a href="#home" style="color: black;">home</a>
+                        </li>
+                        <li>
+                            <a href="#about" style="color: black; font-size: 1.25em;"><b>_about</b></a>
+                        </li>
+                        <li>
+                            <a href="#track" style="color: black; font-size: 1.25em;"><b>_tracks></b></a>
+                        </li>
+                        <li>
+                            <a href="#prize" style="color: black; font-size: 1.25em;"><b>_prizes</b></a>
+                        </li>
+                        <li>
+                            <a href="#faqs" style="color: black; font-size: 1.25em;"><b>_FAQs</b></a>
+                        </li>
+                        <li>
+                            <a href="#sponsors" style="color: black; font-size: 1.25em;"><b>_sponsors</b></a>
+                        </li>
+                        <li>
+                            <a href="#speakers" style="color: black; font-size: 1.25em;"><b>_judges</b></a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav">
+        <li  style="display: none;">
+            <a href="#home" style="color: black;">home</a>
+        </li>
+        <li>
+            <a href="#about" style="color: black; font-size: 1.25em;"><b>_about</b></a>
+        </li>
+        <li>
+            <a href="#track" style="color: black; font-size: 1.25em;"><b>_tracks</b></a>
+        </li>
+        <li>
+            <a href="#prize" style="color: black; font-size: 1.25em;"><b>_prizes</b></a>
+        </li>
+        <li>
+            <a href="#faqs" style="color: black; font-size: 1.25em;"><b>_FAQs</b></a>
+        </li>
+        <li>
+            <a href="#sponsors" style="color: black; font-size: 1.25em;"><b>_sponsors</b></a>
+        </li>
+        <li>
+            <a href="#speakers" style="color: black; font-size: 1.25em;"><b>_judges</b></a>
+        </li>
+    </ul>
+
+    <div class="row flex" style="color: #eeeeee;">
+        <div class="col s12 m6">
+            
+                <div class="logo-div image-ripple" id="theFixed">
+                    <img class="logo-img" src="file:///home/abhi/Downloads/sle.png" alt="Hackathon Logo" style="width: 47.5%;">
+                </div>
+
+        </div>
+        <div class="col s12 m6" id="div2" >
+            <div style="width: 100%;" class="center-text-div"> 
+                    <br><br><br>
+                    <div id="clockdiv" class="col s12 l9">
+                        <div>
+                          <span class="days"></span>
+                          <div class="smalltext">Days</div>
+                        </div>
+                        <div>
+                          <span class="hours"></span>
+                          <div class="smalltext">Hours</div>
+                        </div>
+                        <div>
+                          <span class="minutes"></span>
+                          <div class="smalltext">Minutes</div>
+                        </div>
+                        <div>
+                          <span class="seconds"></span>
+                          <div class="smalltext">Seconds</div>
+                        </div>
+                      </div>
+
+
+                    <div id="cover-buttons" class="col s12 l9 button-container" style="text-align: center;">
+                        
+                    <a href="https://google.com"><button style="margin: 0 auto !important; min-width: 250px; letter-spacing: 1.5px; word-spacing: 5px; margin: auto;" id="devfolio" class="button -regular center">Apply Here</button></a>     
+                        
+                    <div id="event-date" class="col s12 l9">
+                        <p>From <span id="edate-red">28ᵗʰ</span> - <span id="edate-red">30ᵗʰ</span> Aug 2020</p>
+                    </div>
+            </div>
+
+            <div class="section about-text" style="width: 100%;">
+                <h1 id="about" class="scrollspy about-text" style="padding: 10% 2%;">About</h1>
+                <div style="padding: 2%;font-size: 1.1rem;">
+                    Bits & Bytes is a virtual hackathon that challenges students to build proactive technology and solutions to solve some real world problems.
+                    <br><br> <p style="text-align: center;"><i>“The uncreative mind can spot wrong answers, but it takes a very creative mind to spot wrong questions.” ― Anthony Jay. </i></p> <br>
+                    We at GDG Siliguri strongly believe in this and want Bits & Bytes to be a testament of the same. We are looking for creative and innovative minds that dare to ask the right questions. With lockdowns and safety measures in place, people have been left with nothing but the desire to go out and socialize. As innovators and minds of tomorrow, we want YOU to come up with technology that will help facilitate human interactions in newer ways.
+                    Come join us from the comfort of your homes to create a better community in these uncertain and trying times.
+                    
+                    <br>
+
+                </div>
+            </div>
+
+            <div class="section about-text" style="width: 100%;">
+                <h1  id="track" class="scrollspy about-text" style="padding: 10% 2%;">Tracks</h1>
+                <div style="padding: 2%;font-size: 1.1rem;">
+                    We’ll be <b> suggesting</b> the below four themes to help spark your ideas. Remember that you’re welcome to build with the technologies of your choice, across any areas that you think would drive impact for these issues, so feel free to think outside the box too!
+                    <br><br>
+                    
+                            <b>Artificial Intelligence </b><br> 
+                        <br> <br>
+                        
+                            <b>Blockchain</b> <br>
+                         <br><br>
+                        
+                            <b>AR - VR</b> <br> 
+                          <br><br>
+                        
+                            <b>Edtech</b> <br> 
+                          <br><br>
+
+                            <b>Open Innovations</b> <br> 
+                          <br>
+
+                </div>
+            </div>
+
+            <div class="section about-text" style="width: 100%; font-family: quicksand;">
+                <h1  id="prize" class="scrollspy about-text" style="padding: 10% 2%;">Prizes</h1>
+                <div class="row" style="font-size: 0.75em;">
+  
+                    <div class="col s12 prizes">
+                        <span class="prize1"><b>1st Prize:</b></span><br> Cash Prize worth ₹ <span class="amount1" style="font-weight: 800;"> 5,000!</span><br> <br>
+                    </div>
+
+                    <div class="col s12 prizes">
+                        <span class="prize2"><b>2nd Prize:</b></span><br> Cash Prize worth ₹ <span class="amount2" style="font-weight: 800;"> 3,000!</span><br> <br>
+                        
+                    </div>
+
+                    <div class="col s12 prizes">
+                        <span class="prize3"><b>3rd Prize:</b></span><br> Cash Prize worth ₹ <span class="amount3" style="font-weight: 800;"> 2,000!</span><br> <br>
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+
+
+            <div class="section about-text" style="margin-top: 45%; margin-bottom: 15%;">
+                <h1 id="faqs" class="scrollspy faq-text" style="padding-top: 10%; padding-bottom: 2%; padding-left: 2%; padding-right: 2%;">FAQs</h1>
+                <div style="padding: 2%;font-size: 1.1rem;">
+                    <br><b>1.  	Who can attend? </b> <br>
+                    Students, professionals, and anybody who is passionate about coding are welcome to contribute and participate in Bits & Bytes.
+                    
+                    <br><br> <b>2. Do I need to know programming to participate?</b><br>
+                    No, not at all. Hackathons are the best place to bring together diverse skill sets to solve a common goal. People from all backgrounds including designing, marketing, analysis and entrepreneurship join forces together to visualize a product. We highly encourage you to meet and collaborate with other participants to pitch your idea
+                    
+                    <br><br><b>3.  	How can I register for Bits & Bytes?</b><br>
+                    Registrations for Bits & Bytes are open! You can register by clicking
+                    <a target="_blank" href="https://hac.devfolio.co/" style="color: #d52d30;"><b>Here</b></a> .<br>
+                    
+                    <br><b>4. 	Where is this Hackathon happening and how long is it for?</b> <br>
+                    Keeping your safety and comfort in mind, Bits & Bytes will be conducted virtually to freely facilitate innovation. This hackathon will be for 3 days.
+                    <br><br><b>5. Is there a way I can communicate with the team and the participants?</b><br>
+                    Yes. You can get in touch with us after joining our <a href="https://join.slack.com/t/gdgsiliguri/shared_invite/zt-g92ja28h-hOm8EqeIYHihdj3CThb6NA" style="color:#d52d30;">Slack Channel</a>. Hope to see you there!
+                    <br><br> <b>6. Is this a team event? What if I do not have a team?</b><br>
+                    Yes, it is a team event but if going solo is your style, we are all for it. You can also meet new people and find yourself a team through our Slack Channel before the Hack begins.
+                    <br><br> <b>7.	Are there any prizes?</b><br>
+                    Yes, The prizes have been linked on the <a href="#prizes" style="color: #d52d30;">prizes</a> section.<br>
+
+                </div>
+            </div>
+            <div id="anchor-point" style="height: 1px;"></div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="col s12 m12 l12 sponsor-row" >
+            <div id="sponsors" class="scrollspy" style="width: 100%;">
+                <h1 id="sponsor-text" class="sponsor-text" style="padding: 2%;"><b>Organizer</b></h1>
+                <div class="col s10 offset-s1 m12">
+                    <a target="_blank" href="https://gdgsiliguri.org"><img class="sponsor-logos" src="static/design/images/gdgsiliguri.png" alt="Github"></a>
+                </div>
+                <br><br><br>
+                <h1 id="sponsor-text" class="sponsor-text" style="padding: 2%;"><b>Sponsors</b></h1>
+                <div style="font-size: 1.1rem;">
+                    <div class="centered" style=" color: #070707; max-width: 200px; margin: auto;">
+                        <a id="sponsor-btn"  target="_blank" href="mailto:abhinavkumar580@gmail.com"><div class="button -regular2 center">Become a sponsor</div></a>    
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="part-sponsor-text title-sponsor">Title Sponsor:-</h2>
+                    </div>
+                    <br><br>
+                    <div class="col s10 offset-s1 m12">
+                        <a target="_blank" href="https://www.gatsbyjs.org/"><img class="sponsor-logos" src="static/design/images/gatsby.svg" alt="GatsbyJs"></a>
+                        <br><br>
+                    </div>
+
+                    <div class="col s10 offset-s1  m12"><br>
+                        <h2 class="part-sponsor-text">Platinum Sponsor:-</h2>
+                        <a target="_blank" href="https://signzy.com/"><img class="sponsor-logos-2" src="static/design/images/signzy.png" alt="Signzy"></a>
+                    </div>
+
+                    <!-- <div>
+                        <img class="sponsor-logos" src="..\..\static\design\images\github-logo.png" alt="">
+                    </div>
+                    <div>
+                        <img class="sponsor-logos" src="..\..\static\design\images\github-logo.png" alt="">
+                    </div> -->
+                </div>
+            </div> 
+        </div>
+
+        <div class="col s12 m12 l12" style="text-align: center; color: #eeeeee;">   
+            <div id="speakers" class="scrollspy" style="margin-bottom: 0;">
+                <h1  id="speaker-text"  class="team-speaker-text">Speakers and Judges</h1>
+
+                <div style="padding: 2%;font-size: 1.1rem;">
+                    <div style="padding: 2%;font-size: 1.1rem;">
+                        
+                        <div class="team-speaker-buttons centered" style="margin-bottom: 12px;">
+                            <a id="speaker-btn" target="_blank" href="mailto:abhinavkumar580@gmail.com"><div class="button -regular center">Become a speaker</div></a>       
+                        </div>
+                        
+                    </div>
+                    <div class="row justify-content-center text-center" style="font-family: quicksand;">
+                        <div class="col-md-4 col-lg-8 animated bounceInLeft" id="animate2">
+                            
+                            <div class="row">
+                            
+                                <a target="_blank" href="">
+                                    <div class="col s5 m2 l2 offset-s1 offset-m1 offset-l1 team-card-size smaller-card">
+                                        <div class="card darken-1">
+                                            <div class="card-image" style="width: 94%; margin: auto; padding: 5px 0;">
+                                                <img src="static/design/images/speakers/avatar.png">      
+                                            </div>
+                                        </div>
+                                        <div class="card-content white-text" style="padding-bottom: 10px;">
+                                            <span class="card-title names" style="color: black;"><b>TBD</b></span>
+                                            <p class="designation">TBD</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <h4 style="font-size: 1.25rem;">We will be updating this section soon. <br> Till then, <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeODBN9gBWdi8KReADp7kmc93z8nfGWrN5yjiIb15IICLvT9A/viewform?usp=sf_link"><span style="color: #d52d30;">Become a speaker.</span></a></h4> -->
+                </div>
+            </div>
+        </div>
+ 
+    
+
+    
+    <div style=" background-color: #212121; height: 37.5px; width: 100%; position: fixed; bottom: 0; text-align: center; padding-top: 5px;">
+        <a target="_blank" href="http://codezoned.com"><div style="color: #eeeeee; font-family: profontwindows; font-size: 19px;">With <span class="pulsate" style="color: #d52d30;">&#x2764;</span> by <span style="color: #d52d30; font-size: 22px;">code</span><span style="color: white;font-size: 22px;">zoned</span><span style="color: #767777; font-size: 22px;">;</span></div></a>
+</div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    
+    <script>
+
+        var deadline = new Date("aug 28, 2020, 18:00:00");
+        //Today's Data
+        var today = new Date();
+        var Difference_In_Time = deadline.getTime() - today.getTime(); 
+        var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24); 
+        let time_left = (Difference_In_Days *24 *60*60 *1000 - (today.getHours() *60*60*1000) - (today.getMinutes() *60 * 1000) - (today.getSeconds() * 1000 ) - (today.getUTCMilliseconds()) );
+        
+
+        // Count Down
+            function getTimeRemaining(endtime) {
+                var t = Date.parse(endtime) - Date.parse(new Date());
+                var seconds = Math.floor((t / 1000) % 60);
+                var minutes = Math.floor((t / 1000 / 60) % 60);
+                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                return {
+                    'total': t,
+                    'days': days,
+                    'hours': hours,
+                    'minutes': minutes,
+                    'seconds': seconds
+                    };
+            }
+
+            function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.days');
+            var hoursSpan = clock.querySelector('.hours');
+            var minutesSpan = clock.querySelector('.minutes');
+            var secondsSpan = clock.querySelector('.seconds');
+
+            function updateClock() {
+                var t = getTimeRemaining(endtime);
+
+                daysSpan.innerHTML = t.days;
+                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                if (t.total <= 0) {
+                clearInterval(timeinterval);
+                }
+            }
+
+            updateClock();
+            var timeinterval = setInterval(updateClock, 1000);
+            }
+
+            var deadline = new Date(Date.parse(new Date()) + time_left );
+            initializeClock('clockdiv', deadline);
+
+        // Sidenav
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+
+        // ScrollSpy
+        const ss = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(ss, {});
+
+        sponsor_id = document.getElementById('sponsor-text');
+        speaker_id = document.getElementById('speaker-text');
+        team_id = document.getElementById('team-text');
+                
+        $(function() {
+            $('.-regular').hover(function() {
+                $('#codeit').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('#codeit').css('color', 'white');
+            });
+        });
+        $(function() {
+            $('#speaker-btn').hover(function() {
+                $('#speaker-text').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('#speaker-text').css('color', 'white');
+            });
+        });
+        $(function() {
+            $('#mentor-btn').hover(function() {
+                $('#speaker-text').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('#speaker-text').css('color', 'white');
+            });
+        });
+        $(function() {
+            $('#sponsor-btn').hover(function() {
+                $('#sponsor-text').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('#sponsor-text').css('color', '#070707');
+            });
+        });
+        $(function() {
+            $('#prospect-btn').hover(function() {
+                $('#sponsor-text').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('#sponsor-text').css('color', '#070707');
+            });
+        });
+        $(function() {
+            $('#team-btn').hover(function() {
+                $('#team-text').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('#team-text').css('color', 'white');
+            });
+        });
+
+
+        $(function() {
+            $('.prize1').hover(function() {
+                $('.amount1').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('.amount1').css('color', 'white');
+            });
+        });$(function() {
+            $('.prize2').hover(function() {
+                $('.amount2').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('.amount2').css('color', 'white');
+            });
+        });$(function() {
+            $('.prize3').hover(function() {
+                $('.amount3').css('color', '#d52d30');
+            }, function() {
+                // on mouseout, reset the background colour
+                $('.amount3').css('color', 'white');
+            });
+        });
+
+
+        $('#conduct1').click( function() { alert("The form is comin' up. Stay seated!"); });
+        $('#conduct2').click( function() { alert("The form is comin' up. Stay seated!"); });
+
+        //DEVFOLIO
+        document.addEventListener('DOMContentLoaded', function () {
+            let devfolioOptions = {
+                buttonSelector: '#devfolio-apply-now',
+                key: 'hac',
+            }
+
+            let script = document.createElement('script');
+            script.src = "https://apply.devfolio.co";
+            document.head.append(script);
+
+            script.onload = function () {
+                new Devfolio(devfolioOptions);
+            }
+
+            script.onerror = function () {
+                document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+                    window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+                });
+            }
+        });
+        
+        
+        const mq = window.matchMedia( "(min-width: 810px)" );  
+        if (mq.matches) {
+            $(window).scroll(function(){
+                var scroll_top = $(this).scrollTop(); // get scroll position top
+                var height_element_parent =  $("#theFixed").parent().outerHeight(); //get high parent element
+                var height_element = $("#theFixed").height() + 150; //get high of elemeneto
+                var position_fixed_max = height_element_parent - height_element; // get the maximum position of the elemen
+                var position_fixed = scroll_top < 150 ? 150 - scroll_top : position_fixed_max > scroll_top ? 100 : position_fixed_max - scroll_top ;
+                $("#theFixed").css("top",position_fixed);
+            });
+        }
+
+        if ($(window).width() < 960) {
+            $("#theFixed").css("top",25 + 'px');
+            $('.logo-div').css('top', 25 + 'px');
+            $("#theFixed").css("width", 100 + '%');
+            $('.logo-div').css('width', 100 + '%');
+            $("#theFixed").css("margin-bottom", 15 + '%');
+            $('.logo-div').css('margin-bottom', 15 + '%');
+        }
+        else {
+         $(window).scroll(function(){
+                var scroll_top = $(this).scrollTop(); // get scroll position top
+                var height_element_parent =  $("#theFixed").parent().outerHeight(); //get high parent element
+                var height_element = $("#theFixed").height() + 150; //get high of elemeneto
+                var position_fixed_max = height_element_parent - height_element; // get the maximum position of the elemen
+                var position_fixed = scroll_top < 150 ? 150 - scroll_top : position_fixed_max > scroll_top ? 100 : position_fixed_max - scroll_top ;
+                $("#theFixed").delay(800).css("top",position_fixed);
+            });
+        }
+                
+
+    </script>
+
+</body>
 </html>
