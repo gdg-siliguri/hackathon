@@ -43,10 +43,13 @@ ul li a {
 }
 #codeit,
 #sponsor-text,
-#speaker-text,
 #team-text {
 	-webkit-transition: all 1s ease !important;
 	color: black;
+}
+#speaker-text{
+	-webkit-transition: all 1s ease !important;
+
 }
 .prizes {
 	-webkit-transition: all 1s ease !important;
