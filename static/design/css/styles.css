@@ -46,6 +46,7 @@ ul li a {
 #speaker-text,
 #team-text {
 	-webkit-transition: all 1s ease !important;
+	color: black;
 }
 .prizes {
 	-webkit-transition: all 1s ease !important;
